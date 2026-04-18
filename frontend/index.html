@@ -446,7 +446,7 @@
             if (!confirm("Text is quite short (<20 chars). Detection may be less accurate. Continue?")) return;
         }
         // simulate model inference
-    fetch("http://127.0.0.1:5000/predict", {
+    fetch("https://fake-news-detector-4xcv.onrender.com/predict", {
     method: "POST",
     headers: {
         "Content-Type": "application/json"
